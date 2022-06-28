@@ -1,0 +1,48 @@
+.espacoLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 920px;
+}
+.cardLogin{
+    width: 450px; 
+    height: 78%; 
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #212529;
+    color: #0dcaf0;
+}
+.bodyLogin{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: absolute;
+        top: 50%;
+        -webkit-transform: translateY( -50% );
+        -moz-transform: translateY( -50% );
+        transform: translateY( -50% );
+}
+.campo{
+    width: 410px;
+    background-color: transparent;
+    border-color: #0dcaf0;
+}
+.criarConta a:any-link{
+    text-decoration: none;
+    color: #0dcaf0;
+}
+.button_Logar{
+    border: 1px #0dcaf0 solid;
+    color: #0dcaf0;
+}
+.alerta{
+    background: 30%;
+    border-color: red;
+    margin-top: 2px;
+    display: none;
+}
+.form-control{
+    color: #0dcaf0;
+}

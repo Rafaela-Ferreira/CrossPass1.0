@@ -1,0 +1,68 @@
+.filtro div{
+    background-color: transparent;
+    border: #0dcaf0 solid 1px;
+    color: #0dcaf0;
+}
+
+.filtro li{
+    background-color: transparent;
+    border: #0dcaf0 solid 1px;
+    color: #0dcaf0;
+}
+
+.OrdemDosJogos{
+    background-color: transparent;
+    border: none;
+    color: #0dcaf0;
+}
+
+#header{
+    margin-bottom: 60px;
+}
+.row-fluid {
+    background-color: #171a1d; color: white; 
+}
+.row-fluid h1{
+    text-align: center; color: #0dcaf0 ; padding-top: 3%; padding-bottom: 3%; margin-bottom: 0;
+}
+.row{
+    background-color: #171a1d;color: white; width: 100%;
+}
+.col-7 img{
+    width: 90%; height: auto; border-radius: 3%; margin-bottom: 5%; margin-top: 5%;
+}
+.col-10 img{
+    width: 90%; height: auto; border-radius: 3%; margin-bottom: 5%; margin-top: 5%; 
+}
+.card-img-overlay img{
+    border-radius: 10px;
+}
+.card-img-overlay h5{
+    color: #daa520; text-align: center; font-size: 30px;
+}
+.card-img-overlay p{
+    color: white; text-align: center; font-size: 18px;
+}
+.card-img-overlay button{
+    margin-top: 2%;
+}
+.col-2 img{
+    border-radius: 3%; width: 90%;
+}
+
+
+.JogosPesquisa{
+    width: 210px;
+    height: 30px;
+    border-radius: .25rem;
+    background-color: transparent;
+    border: #0dcaf0 solid 1px;
+    color: #0dcaf0;
+}
+
+.BPesquisa{
+    height: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+

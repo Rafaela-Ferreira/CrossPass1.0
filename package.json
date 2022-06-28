@@ -1,0 +1,23 @@
+{
+  "name": "steam",
+  "version": "1.0.0",
+  "description": "steam",
+  "main": "index.js",
+  "scripts": {
+    "test": "a",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "a"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "lite-server": "^2.6.1"
+  }
+}

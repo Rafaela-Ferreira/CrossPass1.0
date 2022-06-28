@@ -1,0 +1,40 @@
+.barraTopo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.Guia{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Guia p {
+    margin: 0;
+}
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
+.ImgBarra{
+    border-radius: 30px;
+}
+.Col-pesquisa{
+    align-items: center;
+    justify-content: center;
+}
+.pesquisaPrinc{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.PesquisaBarra{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 365px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}

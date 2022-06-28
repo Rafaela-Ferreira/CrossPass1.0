@@ -1,0 +1,103 @@
+:root {
+    --bg-cor: #171a1d;
+    --cor-aqua: #03989E;
+    --cor-azul: #0ECAF0;
+    --tamanho-col: 65.5rem;
+    --espacamento: 0.5rem;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /* 10px */
+    /* 16px 62% de 16px */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    background-color: black;  
+    margin-top: 73px; 
+    padding: 0;
+}
+
+.title, .sumary{
+    text-align: center;
+    color: var(--cor-azul);
+    font-size: 2rem;
+    margin: 2rem auto;
+}
+
+.title h1{
+    font-size: 5rem;
+    margin: 3rem auto;
+}
+
+.linha {
+    max-width: 90%;
+    margin: 0 auto;
+    height: var(--tamanho-col);
+    
+}
+
+.linha:not(:last-child) {
+    margin-bottom: var(--espacamento-vertical);
+}
+
+.col-1-de-3 {
+    background-color: var(--bg-cor);
+    height: var(--tamanho-col);
+    width: calc((100% - var(--espacamento)*2)/3);
+    float: left;
+    color: var(--cor-azul);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.col-1-de-3:not(:last-child) {
+    margin-right: var(--espacamento);
+}
+
+.tempo h2 {
+    margin-top:  3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.info{
+    font-size: 1.7rem;
+    max-width: 45rem;
+    margin: 2rem auto;
+}
+.button-assinar{
+    margin: 1.5rem auto;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.vantagens{
+    text-align: start;
+    margin: 2rem auto;
+    max-width: 45rem;
+}
+.vantagens li{
+    margin-bottom: 1.5rem;
+}
+.resumo{
+    margin: 5rem auto;
+}
+.col-8{
+    background-color: whitesmoke; color: #171a1d;
+}
+.col-8 h1{
+    color: #171a1d; padding-bottom: 2%;
+}
+.col-8 p{
+    color: #03989E; border-bottom: #171a1d;
+}

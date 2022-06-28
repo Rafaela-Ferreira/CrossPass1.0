@@ -1,0 +1,18 @@
+body{
+    background-color: #171a1d;
+}
+.p_titulo_inicial{
+    text-align: center; color: #000000; padding-top: 60px; padding-bottom: 20px; font-size: 40px;
+}
+.campo, .campo:hover, .campo::selection, .campo:focus{
+    background-color: transparent;
+    border: #0dcaf0 solid 1px;
+    color: #0dcaf0;
+}
+.alerta{
+    background: 30%;
+    margin-top: 5px;
+    border-color: red;
+    margin-bottom: 15px;
+    display: none;
+}
